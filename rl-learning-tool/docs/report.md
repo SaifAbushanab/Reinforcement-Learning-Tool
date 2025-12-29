@@ -113,7 +113,7 @@ The tool allows real-time adjustment of:
 
 ### 5.1 Environment Visualization
 - **Grid environments**: Styled cells with emoji icons
-- **Agent position**: 🤖 robot emoji
+- **Agent position**: robot emoji
 - **Labels**: START, GOAL, HOLE labels on special cells
 - **State updates**: Real-time agent movement during inference
 
@@ -152,21 +152,3 @@ rl-learning-tool/
     ├── td0.py
     └── n_step_td.py
 ```
-
----
-
-## 7. Conclusion
-
-This interactive RL learning tool provides:
-- ✅ 2 grid-based environments (GridWorld, FrozenLake)
-- ✅ 6 core RL algorithms (3 model-based, 3 model-free)
-- ✅ Adjustable parameters with immediate feedback
-- ✅ Training and Inference visualization
-- ✅ Clean, modular, beginner-friendly code
-
----
-
-## References
-
-1. Sutton, R. S., & Barto, A. G. (2018). Reinforcement Learning: An Introduction (2nd ed.)
-2. Streamlit Documentation
