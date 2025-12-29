@@ -1,11 +1,11 @@
-# 🤖 Interactive RL Learning Tool
+#  Interactive RL Learning Tool
 
 An interactive web-based platform for learning and experimenting with Reinforcement Learning algorithms.
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red)
 
-## 🚀 Installation
+##  Installation
 
 ```bash
 # Clone the repository
@@ -21,14 +21,14 @@ streamlit run app.py
 
 Then open http://localhost:8501 in your browser.
 
-## 🎮 Environments
+##  Environments
 
 | Environment | Description |
 |-------------|-------------|
 | **GridWorld** | Navigate from start to goal |
 | **FrozenLake** | Reach goal avoiding holes (deterministic) |
 
-## 📊 Algorithms
+##  Algorithms
 
 | Algorithm | Type | Description |
 |-----------|------|-------------|
@@ -45,7 +45,7 @@ Then open http://localhost:8501 in your browser.
 - **ε (epsilon)**: Exploration rate - probability of random action
 - **n**: Steps to look ahead (for n-step TD)
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 rl-learning-tool/
@@ -62,7 +62,7 @@ rl-learning-tool/
     └── n_step_td.py
 ```
 
-## 📖 Features
+##  Features
 
 - **Interactive Visualization**: See value functions and policies update in real-time
 - **Inference Mode**: Watch the trained agent navigate the environment
